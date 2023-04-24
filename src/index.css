@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "hanson";
+  src: url("/fonts/Hanson-Bold.ttf");
+}
+
+* {
+  overflow-x: hidden;
+}
+
+@keyframes bubble1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(70vw, 50vh);
+  }
+  66% {
+    transform: translate(0vw, 100vh);
+  }
+  100% {
+    transform: translate(0vw, 0vh);
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    transform: translate(70vw, 50vh);
+  }
+  33% {
+    transform: translate(0vw, 100vh);
+  }
+  66% {
+    transform: translate(0vw, 0vh);
+  }
+  100% {
+    transform: translate(70vw, 50vh);
+  }
+}
+
+@keyframes bubble3 {
+  0% {
+    transform: translate(0vw, 100vh);
+  }
+  33% {
+    transform: translate(0vw, 0vh);
+  }
+  66% {
+    transform: translate(70vw, 50vh);
+  }
+  100% {
+    transform: translate(0vw, 100vh);
+  }
+}
+
+.animate-bubble1 {
+  animation: bubble1 20s ease-in-out infinite;
+}
+
+.animate-bubble2 {
+  animation: bubble2 20s ease-in-out infinite;
+}
+
+.animate-bubble3 {
+  animation: bubble3 20s ease-in-out infinite;
+}
