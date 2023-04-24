@@ -6,7 +6,7 @@ export function About() {
   return (
     <section className="w-full p-12 mt-8">
       <div className="flex items-center justify-between w-full">
-        <Title className="w-1/3 flex items-center gap-2">
+        <Title className="min-w-[17rem] w-min flex items-center gap-2">
           About <span className="text-brand-pink">me</span>
         </Title>
         <Row />

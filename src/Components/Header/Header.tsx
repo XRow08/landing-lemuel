@@ -17,7 +17,7 @@ export function Header() {
         alt="banner"
         className="w-full h-[17rem] object-cover object-center"
       />
-      <div className="absolute top-48 ml-4 bg-black w-80 h-80 rounded-full flex items-center justify-center">
+      <div className="absolute lg:top-48 mg:top-60 md:top-[17rem] ml-4 bg-black md:w-[10rem] md:h-[10rem] mg:w-[15rem] mg:h-[15rem] lg:w-80 lg:h-80 rounded-full flex items-center justify-center">
         <img
           src="/perfil.png"
           alt="banner"
@@ -26,7 +26,7 @@ export function Header() {
       </div>
 
       <div className="w-full flex justify-end">
-        <div className="w-[65%] h-full flex items-start pr-12 pt-12">
+        <div className="lg:w-[65%] mg:w-[70%] mg:gap-2 h-full flex items-start pr-12 pt-12">
           <div className="w-full">
             <Title>
               Lemuel<span className="text-brand-pink">#2000</span>

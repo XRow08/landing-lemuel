@@ -8,7 +8,7 @@ export function Contact() {
   return (
     <section className="px-12 pb-20">
       <div className="flex items-center justify-between w-full mb-8">
-        <Title className="w-1/2 flex items-center gap-2">Contact-me</Title>
+        <Title className="min-w-[21rem] w-min flex items-center gap-2">Contact-me</Title>
         <Row />
       </div>
       <Text>
