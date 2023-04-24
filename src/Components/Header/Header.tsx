@@ -1,7 +1,13 @@
 import React from "react";
-import { Title } from "../Title/Title";
-import { Text } from "../Title/Text";
-import { Button } from "../Button/Button";
+import { Title, Text } from "../Title";
+import { Button } from "../Button";
+import {
+  InstaIcon,
+  LinkedinIcon,
+  PortfolioIcon,
+  TelegramIcon,
+  TwitterIcon,
+} from "../Icons";
 
 export function Header() {
   return (
@@ -35,6 +41,26 @@ export function Header() {
           </div>
           <div className="w-1/2">
             <Button className={"w-full"}>Send Message</Button>
+            <div className="flex items-center justify-between mt-8">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/andrelemuel/"
+              >
+                <LinkedinIcon />
+              </a>
+              <a target="_blank" href="">
+                <PortfolioIcon />
+              </a>
+              <a target="_blank" href="">
+                <InstaIcon />
+              </a>
+              <a target="_blank" href="https://t.me/lemuel_cm">
+                <TelegramIcon />
+              </a>
+              <a target="_blank" href="https://twitter.com/0xLemuel">
+                <TwitterIcon />
+              </a>
+            </div>
           </div>
         </div>
       </div>

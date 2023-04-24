@@ -1,1 +1,6 @@
 export * from './ConfirmIcon'
+export * from './InstaIcon'
+export * from './LinkedinIcon'
+export * from './PortfolioIcon'
+export * from './TelegramIcon'
+export * from './TwitterIcon'
