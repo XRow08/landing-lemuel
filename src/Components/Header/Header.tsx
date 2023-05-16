@@ -48,10 +48,16 @@ export function Header() {
               >
                 <LinkedinIcon />
               </a>
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://drive.google.com/drive/folders/1UOaT7WGo5u-BXRcmQJSbPZW_65ma7JbP?usp=share_link"
+              >
                 <PortfolioIcon />
               </a>
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/andre_leemuel/"
+              >
                 <InstaIcon />
               </a>
               <a target="_blank" href="https://t.me/lemuel_cm">
