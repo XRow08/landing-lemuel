@@ -40,7 +40,9 @@ export function Header() {
             </Text>
           </div>
           <div className="w-1/2">
-            <Button className={"w-full"}>Send Message</Button>
+            <a href="https://discord.com/users/315543338109632512">
+              <Button className={"w-full"}>Send Message</Button>
+            </a>
             <div className="flex items-center justify-between mt-8">
               <a
                 target="_blank"
