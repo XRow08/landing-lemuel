@@ -2,12 +2,13 @@ import React from "react";
 import { Text } from "../Title";
 import { IData } from "../ExpCards/data";
 import { useGlobalModalStateStore } from "../../stores/modals";
+import { ModerationIcon } from "../Icons/ModerationIcon";
 
 type Props = {
   item: IData;
 };
 
-export const Card: React.FC<Props> = ({ item }) => {
+export const CardModal: React.FC<Props> = ({ item }) => {
   const { setShowModal, setItem } = useGlobalModalStateStore((state) => state);
   return (
     <div
@@ -18,6 +19,7 @@ export const Card: React.FC<Props> = ({ item }) => {
       className="w-full flex justify-center items-center cursor-pointer p-[7px] max-w-xl bg-gradient-to-br from-[rgba(249,87,126,1)] to-[rgba(45,8,112,1)] rounded-2xl"
     >
       <div className="flex flex-col justify-center items-start w-full h-full hover:bg-[#111111] bg-black p-12 gap-8 rounded-xl transition-all duration-300 ease-in-out">
+        <ModerationIcon />
         <div className="flex flex-col gap-4">
           <div>
             <Text className="text-xl">{item.title}</Text>

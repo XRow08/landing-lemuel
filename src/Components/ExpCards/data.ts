@@ -1,4 +1,14 @@
-export const data = [
+export interface IData {
+  title: string;
+  subtitle: string;
+  list1: string;
+  list2: string;
+  body: string;
+  date1: string;
+  date2: string;
+}
+
+export const data: IData[] = [
   {
     title: "Lead of Moderation",
     subtitle: "Zealy",
