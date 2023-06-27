@@ -1,8 +1,9 @@
 import React from "react";
 
-export function TelegramIcon() {
+export function TelegramIcon({ className }: any) {
   return (
     <svg
+      className={className}
       width="20"
       height="21"
       viewBox="0 0 20 21"

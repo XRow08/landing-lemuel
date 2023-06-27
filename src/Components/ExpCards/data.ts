@@ -1,4 +1,5 @@
 export interface IData {
+  image?: string;
   title: string;
   subtitle: string;
   list1: string;
@@ -10,6 +11,7 @@ export interface IData {
 
 export const data: IData[] = [
   {
+    image: "src\assets\modaration.svg",
     title: "Lead of Moderation",
     subtitle: "Zealy",
     list1: "Quests Specialist;",

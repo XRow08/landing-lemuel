@@ -1,8 +1,9 @@
 import React from "react";
 
-export function TwitterIcon() {
+export function TwitterIcon({ className }: any) {
   return (
     <svg
+      className={className}
       width="21"
       height="18"
       viewBox="0 0 21 18"

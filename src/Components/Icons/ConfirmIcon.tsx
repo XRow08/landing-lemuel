@@ -3,7 +3,7 @@ import React from "react";
 export function ConfirmIcon() {
   return (
     <svg
-      className="min-w-[25px]"
+      className="min-w-[15px] max-w-[15px] lg:min-w-[25px]"
       width="25"
       height="25"
       viewBox="0 0 25 25"

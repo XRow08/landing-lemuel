@@ -14,12 +14,6 @@ export default {
         "feedback-error": "#cc0000",
         "feedback-info": "#5df2fe",
       },
-      screens: {
-        xs: "320px",
-        md: "1024px",
-        mg: "1440px",
-        lg: "1920px",
-      },
     },
   },
   plugins: [],
